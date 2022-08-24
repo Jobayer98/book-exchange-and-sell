@@ -98,13 +98,13 @@ a {
     justify-content: space-between;
 }
 
-.all{
+.all-link{
     color: #adb5bd;
     font-size: 16px;
 }
 
-.all:hover,
-.all:active{
+.all-link:hover,
+.all-link:active{
     border:1px solid #f68b20;
     color: #adb5bd;
     padding: 8px 16px;
@@ -162,6 +162,19 @@ p{
     margin: 0;
 }
 
+.log {
+    font-size: 12px;
+    background-color: #fff;
+    color: #f68b20;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.log:hover{
+    border: 1px solid #fff;
+    background-color: #f68b20;
+}
+
 .btn {
     color: #fff;
     font-weight: 500;
@@ -177,6 +190,9 @@ p{
 }
 
 @media (max-width: 820px) {
+    .primary-heading{
+        padding: 0 96px;
+    }
     .cards {
         padding: 12px 32px;
         display: grid;
